@@ -1,0 +1,43 @@
+.card-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  padding: 15px;
+  transition: transform .2s ease-in-out;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #333;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.search-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color .2s ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/*# sourceMappingURL=index.41c1e778.css.map */
